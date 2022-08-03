@@ -1,0 +1,16 @@
+{{#if success_messages}}
+<div class="alert alert-success">{{success_messages}}</div>
+{{/if}}
+{{#if error_messages}}
+<div class="alert alert-danger">{{error_messages}}</div>
+{{/if}}
+
+<div class="container">
+    <h2>Verification</h2>
+    <form action="" class="legend" method="post">
+        <label for="">Token*</label><br>
+        <input type="text" name="Token" placeholder="firstName"><br>
+        
+        <button type="submit"> submit</button>
+    </form>
+</div>

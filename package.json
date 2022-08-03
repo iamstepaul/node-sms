@@ -1,0 +1,31 @@
+{
+  "name": "new-work",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "8.10.0",
+    "npm": "6.11.3"
+  },
+  "author": "meesh",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.16.2",
+    "mongoose": "^5.7.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.2",
+    "passport-local-mongoose": "^5.0.1",
+    "random-string": "^0.2.0",
+    "randomstring": "^1.1.5",
+    "twilio": "^3.35.0"
+  }
+}
